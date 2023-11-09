@@ -26,6 +26,9 @@ when@dev:
 when@test:
     monolog:
         handlers:
+            testing:
+                type: test
+                level: info
             main:
                 type: fingers_crossed
                 action_level: error
